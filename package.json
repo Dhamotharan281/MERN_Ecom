@@ -1,0 +1,15 @@
+{
+  "name": "ecommerce-mern-ai",
+  "version": "1.0.0",
+  "description": "Full-Stack E-Commerce with AI Features",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && node seeder.js",
+    "dev": "echo 'Run backend and frontend in separate terminals' && echo 'Backend: npm run backend' && echo 'Frontend: npm run frontend'"
+  },
+  "keywords": ["ecommerce", "mern", "ai", "react", "nodejs", "mongodb"],
+  "author": "Your Name",
+  "license": "MIT"
+}
